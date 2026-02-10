@@ -1,35 +1,35 @@
 # Database Engineer Capstone
 
-Little Lemon booking-system capstone submission.
+This repository contains the Little Lemon booking-system capstone submission in a reviewer-friendly structure.
 
-## Deliverables
+## At a Glance
 
-- `deliverables/erd/`: ER diagram (`.png`) and MySQL Workbench model (`.mwb`)
-- `deliverables/sql/`: schema, seed data, stored procedures, verification script
-- `deliverables/jupyter/`: connection and query/procedure notebooks
-- `deliverables/tableau/`: Tableau workbook (`.twbx`), dashboard screenshots, and `orders.xlsx`
+- `deliverables/erd/` - ER diagram (`LittleLemonDM.png`) and Workbench model (`LittleLemonDM.mwb`)
+- `deliverables/sql/` - schema, seed data, required procedures, and verification script
+- `deliverables/jupyter/` - notebook checks for DB connection, queries, and procedures
+- `deliverables/tableau/` - workbook, screenshots, and source data (`orders.xlsx`)
 
-Required procedures included in SQL:
+Required procedures:
 - `GetMaxQuantity()`
 - `ManageBooking()`
 - `UpdateBooking()`
 - `AddBooking()`
 - `CancelBooking()`
 
-## Run Guide
+## How To Run
 
-1. Copy `.env.example` to `.env` and set DB credentials.
+1. Create `.env` from `.env.example` and set your MySQL credentials.
 2. Run SQL scripts in MySQL Workbench (in order):
    - `deliverables/sql/01_schema.sql`
    - `deliverables/sql/02_seed_data.sql`
    - `deliverables/sql/03_stored_procedures.sql`
    - `deliverables/sql/04_verification.sql`
-3. Run Jupyter notebooks:
+3. Run the Jupyter notebooks:
    - `deliverables/jupyter/01_database_connection_setup.ipynb`
    - `deliverables/jupyter/02_query_and_procedure_checks.ipynb`
-4. Tableau artifacts are already included in `deliverables/tableau/` (`00_workbook_complete.twbx`, screenshots, and `orders.xlsx`).
-5. Open the workbook in Tableau or view the published visualization:
-   - https://public.tableau.com/app/profile/viacheslav.danilov/viz/MetaDatabaseProject/Dashboard
+4. Tableau artifacts are already included in `deliverables/tableau/`.
+5. Open `deliverables/tableau/00_workbook_complete.twbx` in Tableau, or use the published view:
+   - `https://public.tableau.com/app/profile/viacheslav.danilov/viz/MetaDatabaseProject/Dashboard`
 
 ## Submission Checklist
 
