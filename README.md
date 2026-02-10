@@ -1,4 +1,4 @@
-# Database Engineer Capstone - Little Lemon
+# Database Engineer Capstone
 
 This repository contains a clean, minimal setup for the Little Lemon booking-system capstone.
 
@@ -22,7 +22,7 @@ This repository contains a clean, minimal setup for the Little Lemon booking-sys
 - `deliverables/sql/03_stored_procedures.sql` - creates required procedures
 - `deliverables/sql/04_verification.sql` - quick procedure call checks
 - `deliverables/jupyter/01_database_connection_setup.ipynb` - client setup notebook
-- `deliverables/jupyter/02_query_functions_and_join.ipynb` - query notebook
+- `deliverables/jupyter/02_query_and_procedure_checks.ipynb` - query and procedure notebook
 - `deliverables/erd/LittleLemonDM.png` - ER diagram image
 - `deliverables/erd/LittleLemonDM.mwb` - MySQL Workbench model
 - `deliverables/tableau/00_workbook_complete.twbx` - Tableau workbook
@@ -46,7 +46,7 @@ This repository contains a clean, minimal setup for the Little Lemon booking-sys
    - `deliverables/sql/04_verification.sql`
 4. Open and run Jupyter notebooks:
    - `deliverables/jupyter/01_database_connection_setup.ipynb`
-   - `deliverables/jupyter/02_query_functions_and_join.ipynb`
+   - `deliverables/jupyter/02_query_and_procedure_checks.ipynb`
 5. Complete Tableau work using `orders.xlsx`.
 
 For full details, use `docs/run-guide.md`.
