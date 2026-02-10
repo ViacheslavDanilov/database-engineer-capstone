@@ -18,18 +18,24 @@ Required procedures:
 
 ## How To Run
 
-1. Create `.env` from `.env.example` and set your MySQL credentials.
-2. Run SQL scripts in MySQL Workbench (in order):
+1. Install `uv` (if needed):
+   - macOS/Linux: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+   - Windows (PowerShell): `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
+   - Install docs: https://docs.astral.sh/uv/getting-started/installation/
+2. Sync the local environment with this repo:
+   - `uv sync`
+3. Create `.env` from `.env.example` and set your MySQL credentials.
+4. Run SQL scripts in MySQL Workbench (in order):
    - `deliverables/sql/01_schema.sql`
    - `deliverables/sql/02_seed_data.sql`
    - `deliverables/sql/03_stored_procedures.sql`
    - `deliverables/sql/04_verification.sql`
-3. Run the Jupyter notebooks:
+5. Run the Jupyter notebooks:
    - `deliverables/jupyter/01_database_connection_setup.ipynb`
    - `deliverables/jupyter/02_query_and_procedure_checks.ipynb`
-4. Tableau artifacts are already included in `deliverables/tableau/`.
-5. Open `deliverables/tableau/00_workbook_complete.twbx` in Tableau, or use the published view:
-   - `https://public.tableau.com/app/profile/viacheslav.danilov/viz/MetaDatabaseProject/Dashboard`
+6. Tableau artifacts are already included in `deliverables/tableau/`.
+7. Open `deliverables/tableau/00_workbook_complete.twbx` in Tableau, or use the published view:
+   - https://public.tableau.com/app/profile/viacheslav.danilov/viz/MetaDatabaseProject/Dashboard
 
 ## Submission Checklist
 
